@@ -1,0 +1,9 @@
+config HUAWEI_WIFI
+	bool "qca huawei wifi extension"
+	default n
+
+config HUAWEI_WIFI_BUILTIN
+	bool "qca builtin feature"
+	depends on HUAWEI_WIFI
+	default n
+

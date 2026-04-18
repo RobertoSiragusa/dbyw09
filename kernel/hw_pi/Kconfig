@@ -1,0 +1,6 @@
+config HW_FUTEX_PI
+        bool "extend futex pi"
+        depends on FUTEX_PI && (HW_QOS_THREAD || HW_RTG_SCHED)
+        default n
+        help
+          Customize futex pi and support qos and vip_prio inheritance.

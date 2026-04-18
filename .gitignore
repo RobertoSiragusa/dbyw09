@@ -1,0 +1,13 @@
+out/
+build/
+*.o
+*.ko
+*.img
+*.zip
+*.tar.gz
+*.dtb
+*.dtbo
+*.log
+ccache/
+roby
+roby.pub

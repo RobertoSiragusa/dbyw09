@@ -1,0 +1,4 @@
+config POWER_DUBAI_GPU_STATS
+	bool "Dubai gpu frequency stats"
+	default n
+	depends on POWER_DUBAI && HUAWEI_GPU_OPP_STATS
